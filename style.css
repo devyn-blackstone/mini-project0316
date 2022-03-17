@@ -1,0 +1,62 @@
+*{
+  background-color: grey;
+}
+
+body{
+    text-align: center;
+    font-family: Times, 'Times New Roman', serif;
+}
+
+header{
+  background-color: pink;
+  top: 0;
+  width: 1375px;
+  border: 1px solid black;
+  position: sticky;
+  margin: 10px;
+}
+
+ul{
+  text-align: right;
+  font-size: 25px;
+  background: pink;
+  list-style-type: none;
+}
+#navimage{
+  position: relative;
+  float: left;
+  width: 120px;
+  height: 80px;
+  margin: 25px 20px;
+}
+
+li, a{
+  background-color: pink;
+}
+img{
+    border: 1px solid black;
+}
+
+#cat{
+  font-size: xx-small;
+}
+
+.box-form{
+  background-color: pink;
+  top: 0;
+  width: 1375px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+form, label{
+  background-color: pink;
+  margin: 20px;
+  
+}
+
+#contact-form{
+  position: relative;
+  top: 10px;
+}
+
