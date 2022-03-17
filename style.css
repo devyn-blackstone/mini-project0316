@@ -33,6 +33,7 @@ ul{
 li, a{
   background-color: pink;
   color: black;
+  display: inline;
 }
 img{
     border: 1px solid black;
