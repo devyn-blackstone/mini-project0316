@@ -4,39 +4,51 @@
 
 body{
     text-align: center;
-    font-family: Times, 'Times New Roman', serif;
+    font-family:  sans-serif;
 }
 
 header{
-  background-color: pink;
+  background-color: white;
   top: 0;
-  width: 1375px;
   border: 1px solid black;
+  /* confirm how to get a header to stay on scroll */
   position: sticky;
   margin: 10px;
 }
 
+/* somehow I need the ul and image to be next to each other */
 ul{
   text-align: right;
-  font-size: 25px;
-  background: pink;
+  font-size: 12px;
+  background: white;
   list-style-type: none;
 }
+
+/* I want this image to be centered in the header */
 #navimage{
-  position: relative;
+  display:flex;
+  align-items: center;
   float: left;
-  width: 50px;
-  height: 30px;
-  margin: 8px 5px;
+  /* how do I make this image fit perfectly size in the header */
+  width: 30px;
+  height: auto;
+  margin: 8px;
 }
 
+/* better way to do this? */
 li, a{
-  background-color: pink;
+  background-color:white;
   color: black;
   display: inline;
 }
+
 img{
     border: 1px solid black;
+}
+
+p{
+  margin:10px;
+  /* how to make this not stretch across the page so much */
 }
 
 #cat{
@@ -44,21 +56,22 @@ img{
 }
 
 .box-form{
-  background-color: pink;
+  background-color: white;
   top: 0;
-  width: 1375px;
   border: 1px solid black;
   margin: 10px;
 }
 
 form, label{
-  background-color: pink;
+  background-color: white;
   margin: 20px;
   
 }
-
+/* is it normal that you have to adjust all the items you add to have the same background color */
 #contact-form{
   position: relative;
   top: 10px;
+  background-color: white;
+  margin:0;
 }
 
